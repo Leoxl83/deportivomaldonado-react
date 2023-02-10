@@ -1,10 +1,17 @@
 import './App.css';
-import NavBar from './components/NavBar/NavBar'
+import NavBar from './components/NavBar/NavBar';
+import Footer from './components/Footer/Footer';
+import BannerHome from './components/BannerHome/BannerHome';
 
 
 function App() {
   return (
-    <NavBar />
+    <>
+      <NavBar />
+      <BannerHome/>
+      <Footer />
+    </>
+
   );
 }
 
