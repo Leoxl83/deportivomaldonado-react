@@ -1,0 +1,42 @@
+.partidos {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+    width: 100%;
+    height: 200px;
+    border-bottom: 1px solid #aeaeae;
+}
+
+.ultimoPartido {
+    position: relative;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.logos {
+    position: relative;
+    display: inline-flex;
+}
+
+.goles {
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.local {
+    width: 45%;
+}
+
+.visitante {
+    width: 45%;
+}
+
+.versus {
+    position: relative;
+    color: antiquewhite;
+    margin: 5px auto;
+    padding: 10px;
+}
+.fecha {
+    margin-top: 5px;
+}
