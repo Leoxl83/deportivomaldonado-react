@@ -6,7 +6,7 @@ import './Styles.css'
 
 const Partidos = () => {
   return (
-    <div className='partidos bg-dark'>
+    <div className='partidos'>
       <div className='ultimoPartido'>
         <h3>Último Partido</h3>
         <div className="logos">

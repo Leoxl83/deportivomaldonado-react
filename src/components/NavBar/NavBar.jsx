@@ -1,12 +1,13 @@
 import React from 'react'
 import badge from '../../img/badge.png';
+import './style.css'
 
 const NavBar = () => {
   return (
     <nav className="navbar navbar-dark sticky-top navbar-expand-lg bg-dark">
       <div className="container-lg">
         <picture>
-          <img src={badge} alt="logo" width="35px" />
+          <img src={badge} alt="logo" width="40px" />
         </picture>
         <button className="navbar-toggler"
           type="button"

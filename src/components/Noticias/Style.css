@@ -1,0 +1,38 @@
+.titulo{
+    margin-top: 20px;
+    color: white;
+}
+
+.noticias-recientes {
+    padding: 40px;
+}
+
+.noticias-recientes img {
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    display: block;
+    transition: all 0.2s ease;
+}
+
+.noticias-contenedor {
+    padding-top: 60px;
+    margin-bottom: 40px;
+}
+
+.noticia {
+    position: relative;
+}
+
+.noticia:hover img {
+    opacity: 0.5;
+}
+
+h4 {
+    color: white;
+}
+p {
+    color: white;
+    padding: 5px;
+}
